@@ -190,7 +190,7 @@ class Solution {
             }
             if(stringBuilder.length() != 0 && inComment == false){
                 result.add(stringBuilder.toString());
-                stringBuilder.setLength(0);  // still keep the capacity of stringBuilder, reuse the same memorny
+                stringBuilder.setLength(0);  // still keep the capacity of stringBuilder, reuse the same memory
             }
         }
         return result;
