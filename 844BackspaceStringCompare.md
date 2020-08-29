@@ -36,10 +36,13 @@ Can you solve it in O(N) time and O(1) space?
 #### My Solution in C++
 ```
 /**
-    If we start to scan a string from left to right, only whwn we reach the right end, we know what the string is.  Also we need stack to store the chars we went 
-    through, which make the space complexity O(n).
-    However, if we start to scan the string from right to left, we don't need a stack, which make the space complexity O(1), and we can stop in the middle if we 
-    find two chars in two strings do not match.  For example, we can stop earlier for strings like ...ab# and ...bdv##.
+    If we start to scan a string from left to right, only whwn we reach the right end, we know how the string 
+    looks like.  Also we need a stack to store the characters we went through, which make the space 
+    complexity O(n).
+    
+    However, if we start to scan the string from right to left, we don't need a stack, which make the space 
+    complexity O(1), and we can stop in the middle if we find two chars in two strings do not match.  For 
+    example, we can stop earlier for strings like abcdefgab# and abcdefgbdv##.
     
     time complexity O(n), space complexity O(1)
 */
@@ -75,10 +78,13 @@ public:
 #### My Solution in Java
 ```
 /**
-    If we start to scan a string from left to right, only whwn we reach the right end, we know what the string is.  Also we need stack to store the chars we went 
-    through, which make the space complexity O(n).
-    However, if we start to scan the string from right to left, we don't need a stack, which make the space complexity O(1), and we can stop in the middle if we 
-    find two chars in two strings do not match.  For example, we can stop earlier for strings like ...ab# and ...bdv##.
+    If we start to scan a string from left to right, only whwn we reach the right end, we know how the string 
+    looks like.  Also we need a stack to store the characters we went through, which make the space 
+    complexity O(n).
+    
+    However, if we start to scan the string from right to left, we don't need a stack, which make the space 
+    complexity O(1), and we can stop in the middle if we find two chars in two strings do not match.  For 
+    example, we can stop earlier for strings like abcdefgab# and abcdefgbdv##.
     
     time complexity O(n), space complexity O(1)
 */
