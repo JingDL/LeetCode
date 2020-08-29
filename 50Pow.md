@@ -33,6 +33,7 @@ Constraints:
 
 
 
+
 #### My Solution in C++
 ```
 /* 
@@ -69,6 +70,7 @@ public:
 
 /*  recursion
     time complexity O(lg(n)), space complexity O(lg(n))
+    consider 5^9 = 5^(8+1) = (5^8)*(5^1) = (5^8)^1*(5^4)^0*(5^2)^0*(5^1)^1
 */
 class Solution {
 public:
