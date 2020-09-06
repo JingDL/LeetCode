@@ -40,12 +40,12 @@ L + M <= A.length <= 1000,
 /**
     Since L-length subarray could occur on the left or the right, we create a function 
     maxSumTwoNoOverlapFixedOrder() to calculate the sum when one array is alway on the left of
-    the other.  Then we can the function twic with different order of input:
+    the other.  Then we can the function twice with different order of input:
     maxSumTwoNoOverlapFixedOrder(A, L, M) and
     maxSumTwoNoOverlapFixedOrder(A, M, L).
     
     When scan through array, we use leftSum to store the sum of current left subarray, and 
-    rightSum to store the sum of currecnt right subarray.  LeftSumMax is the max value of all
+    rightSum to store the sum of current right subarray.  LeftSumMax is the max value of all
     the subarrays.
     leftSumMax = max(leftSumMax, leftSum);
     result = max(result, leftSumMax + rightSum);
