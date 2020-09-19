@@ -32,9 +32,7 @@ exection -> execution (insert 'u')
 
 ```
 /** A typical DP problem.
-    Usually, people use a two dimension maxtrix to track the number of edit distance.  Since
-    the values on (i+1)th row only depends the values on (i)th and (i+1)th rows, I am going to 
-    use one array to solve it.
+    time and space complexity O(n*m), where n is the length of word1, m is the length of word2
 */
 class Solution {
     public int minDistance(String word1, String word2) {
@@ -83,7 +81,7 @@ class Solution {
 ```
 
 ```
-/** A typical DP problem.
+/** 
     Usually, people use a two dimension maxtrix to track the number of edit distance.  Since
     the values on (i+1)th row only depends the values on (i)th and (i+1)th rows, I am going to 
     use one array to solve it.
@@ -165,7 +163,7 @@ public:
 ```
 
 ```
-/** A typical DP problem.
+/** 
     Usually, people use a two dimension maxtrix to track the number of edit distance.  Since
     the values on (i+1)th row only depends the values on (i)th and (i+1)th rows, I am going to 
     use one array to solve it.
