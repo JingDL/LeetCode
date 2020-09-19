@@ -10,3 +10,5 @@ Every weekend, I am going to solve one LeetCode question.
 [1031. Maximum Sum of Two Non-Overlapping Subarrays (Medium)](https://github.com/JingDL/LeetCode/blob/master/1031MaximumSumofTwoNonOverlappingSubarrays.md)
 
 [72. Edit Distance (Hard)](https://github.com/JingDL/LeetCode/blob/master/72EditDistance.md)
+
+[1423. Maximum Points You Can Obtain from Cards (Medium)](https://github.com/JingDL/LeetCode/blob/master/1423MaximumPointsYouCanObtainfromCards.md)
