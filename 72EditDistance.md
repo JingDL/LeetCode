@@ -59,7 +59,8 @@ class Solution {
             for(int j = 1; j <= sourceLength; j++){
                 if(word1.charAt(j-1) == word2.charAt(i-1)){
                     /*
-                    distance[i-1][j-1] <= distance[i-1][j] + 1.  Otherwise we can convert word1.substring(0, j) into word2.substring(0, i-1), and then remove last letter.  The number of operation is lower than distance[i-1][j-1].  distance[i-1][j-1] is not the minimal.
+                    distance[i-1][j-1] <= distance[i-1][j] + 1.  Otherwise we can convert word1.substring(0, j) into word2.substring(0, i-1), and then remove 
+                    last letter.  The number of operation is lower than distance[i-1][j-1].  distance[i-1][j-1] is not the minimal.
                     For the same reason, distance[i-1][j-1] <= distance[i][j-1] + 1;
                     */
                     distance[i][j] = distance[i-1][j-1];
