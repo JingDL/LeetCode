@@ -176,9 +176,9 @@ public:
         vector<vector<int>> graph(orgSize+1, vector<int>());
         vector<int> inDegree(orgSize+1, 0);
         
-        for(auto seq : seqs){
+        for(auto & seq : seqs){
             int prev = -1;
-            for(auto curr : seq){
+            for(auto & curr : seq){
                 if(curr < 1 || curr > orgSize){
                     return false;
                 }
@@ -210,7 +210,7 @@ public:
             }
             index++;
             queue.pop_front();
-            for(int next : graph[curr]){
+            for(int & next : graph[curr]){
                 inDegree[next]--;
                 if(inDegree[next] == 0){
                     if(queue.size() > 0){
@@ -243,9 +243,9 @@ public:
             filled[i] = false;
         }
         
-        for(auto seq : seqs){
+        for(auto & seq : seqs){
             int prev = -1;
-            for(auto next : seq){
+            for(auto & next : seq){
                 if(next < 1 || next > orgSize){
                     return false;
                 }
