@@ -14,3 +14,5 @@ Every weekend, I am going to solve one LeetCode question.
 [1423. Maximum Points You Can Obtain from Cards (Medium)](https://github.com/JingDL/LeetCode/blob/master/1423MaximumPointsYouCanObtainfromCards.md)
 
 [444. Sequence Reconstruction (Medium)](https://github.com/JingDL/LeetCode/blob/master/444SequenceReconstruction.md)
+
+[753. Cracking the Safe (Hard)](https://github.com/JingDL/LeetCode/blob/master/844BackspaceStringCompare.md)
