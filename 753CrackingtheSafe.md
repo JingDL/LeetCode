@@ -30,7 +30,8 @@ k^n will be at most 4096.
 ```
 /**
     I am trying to solve this question as a programmer, not as a mathematician.  It assumes that a solution starting with 00000... is the shortest solution.
-    The time complexity is O(k^k^n), since the result length is k^n, and there are k possibilities for each character in the result.  For the worst case scenario, the code tries every possibility.
+    The time complexity is O(k^k^n), since the result length is k^n, and there are k possibilities for each character in the result.  For the worst case scenario, 
+    the code tries every possibility.
     The space complexity is O((k^n)*n)), since there are k^n passwords, and each contains n characters.  The hashset has O(k^n) buckets.
 */
 class Solution {
