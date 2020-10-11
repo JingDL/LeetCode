@@ -90,7 +90,7 @@ class Solution {
 ```
 /**
    The time complexity is O(k^k^n), since the result length is k^n, and there are k possibilities for each character in the result.  For the worst case scenario, the code tries every possibility.
-   The space complexity is O((k^n)*n)), since there are k^n passwords, and each contains n characters.  The hashset has O(k^n) buckets.
+   THe space complexity is O((k^n)*n)), since there are k^n passwords, and each contains n characters.  The hashset has O(k^n) buckets.
 */
 class Solution {
 public:
@@ -102,6 +102,8 @@ public:
         int count = pow(k, n);
         
         string result;
+        // reserve count+n-1 to avoid automatic allocation for better performance
+        result.reserve(count+n-1);
         for(int i = 0; i < n; i++){
             // in C++, string is like a vector
             result.push_back('0');
@@ -109,6 +111,8 @@ public:
         //cout << "L18 " << result << endl;
         
         unordered_set<string> visited;
+        // reserve the capacity for better performance
+        visited.reserve(count);
         visited.insert(result);
         return backtracking(result, visited, count-1, k, n) ? result : "";
     }
@@ -124,7 +128,7 @@ private:
             nextPassword.push_back(ch);
             // cout << "L35 " << nextPassword << endl;
             if(visited.find(nextPassword) != visited.end()){
-                nextPassword.resize(n-1);
+                nextPassword.pop_back();
                 continue;
             }
             visited.insert(nextPassword);
@@ -133,9 +137,9 @@ private:
                 return true;
             }
             // roll back
-            result.resize(result.size()-1);
+            result.pop_back();
             visited.erase(nextPassword);
-            nextPassword.resize(n-1);
+            nextPassword.pop_back();
         }
         return false;
     }
