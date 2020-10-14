@@ -46,9 +46,12 @@ Both start and end will only consist of characters in 'L', 'R', and 'X'.
 ```
 /**
     We can observe that a successful transition must satisfy three conditions:
-    1) If we strip off all the “X”, the start should be the same as the end, because a “R” can not pass a “L”, and a “L” can not pass a “X”.  For example, we cannot convert “RXLX” into “LXRX”
-    2) The index of a “L” in start string should be greater than or equal to the index of the corresponding “L” in the end.  We cannot convert “LXRX” into “XLRX” although they satisfy condition 1).
-    3) The index of a "R" in start should be less than or equal to the index of the corresponding "R" in the end.  We cannot convert “XLXR” into “XLRX” although they satisfy condition 1).
+    1) If we strip off all the “X”, the start should be the same as the end, because a “R” can not pass a “L”, and a “L” can not pass a “X”.  For example, we
+    cannot convert “RXLX” into “LXRX”
+    2) The index of a “L” in start string should be greater than or equal to the index of the corresponding “L” in the end.  We cannot convert “LXRX” into “XLRX”
+    although they satisfy condition 1).
+    3) The index of a "R" in start should be less than or equal to the index of the corresponding "R" in the end.  We cannot convert “XLXR” into “XLRX” although
+    they satisfy condition 1).
     
     The time complexity is O(n), where n is the length of the string.
     The space complexity is O(0).
