@@ -16,3 +16,5 @@ Every weekend, I am going to solve one LeetCode question.
 [444. Sequence Reconstruction (Medium)](https://github.com/JingDL/LeetCode/blob/master/444SequenceReconstruction.md)
 
 [753. Cracking the Safe (Hard)](https://github.com/JingDL/LeetCode/blob/master/753CrackingtheSafe.md)
+
+[777. Swap Adjacent in LR String (Medium)](https://github.com/JingDL/LeetCode/blob/master/777SwapAdjacentinLRString.md)
