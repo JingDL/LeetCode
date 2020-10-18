@@ -5,6 +5,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [72. Edit Distance (Hard)](https://github.com/JingDL/LeetCode/blob/master/72EditDistance.md)
 
+[428. Serialize and Deserialize N-ary Tree (Hard)] (https://github.com/JingDL/LeetCode/blob/master/428SerializeandDeserializeN-aryTree.md)
+
 [444. Sequence Reconstruction (Medium)](https://github.com/JingDL/LeetCode/blob/master/444SequenceReconstruction.md)
 
 [722. Remove Comments (Medium)](https://github.com/JingDL/LeetCode/blob/master/722RemoveComments.md)
