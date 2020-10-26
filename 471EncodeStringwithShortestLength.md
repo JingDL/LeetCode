@@ -98,7 +98,9 @@ class Solution {
                     if(replacement.length() < dp[start][end-1].length()){
                         dp[start][end-1] = replacement;
                     }
-                    // we don't go further. For example, after we get 6[a], we don't need to try 3[aa], 2[aaa].
+                    /* 
+                    we don't need to go further. For example, for aaaaaa, after we find 6[a], we don't need to try 3[aa], 2[aaa].  However for abcabc, we will stop after finding 2[abc].
+                    */
                     break;
                 }
             }
