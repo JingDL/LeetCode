@@ -9,6 +9,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [444. Sequence Reconstruction (Medium)](https://github.com/JingDL/LeetCode/blob/master/444SequenceReconstruction.md)
 
+[471. Encode String with Shortest Length (Hard)](https://github.com/JingDL/LeetCode/blob/master/471EncodeStringwithShortestLength.md)
+
 [722. Remove Comments (Medium)](https://github.com/JingDL/LeetCode/blob/master/722RemoveComments.md)
 
 [753. Cracking the Safe (Hard)](https://github.com/JingDL/LeetCode/blob/master/753CrackingtheSafe.md)
