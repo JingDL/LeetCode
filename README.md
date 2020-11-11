@@ -21,6 +21,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [1031. Maximum Sum of Two Non-Overlapping Subarrays (Medium)](https://github.com/JingDL/LeetCode/blob/master/1031MaximumSumofTwoNonOverlappingSubarrays.md)
 
+[1240. Tiling a Rectangle with the Fewest Squares (Hard)](https://github.com/JingDL/LeetCode/blob/master/1240TilingaRectanglewiththeFewestSquares.md)
+
 [1423. Maximum Points You Can Obtain from Cards (Medium)](https://github.com/JingDL/LeetCode/blob/master/1423MaximumPointsYouCanObtainfromCards.md)
 
 [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum (Medium)](https://github.com/JingDL/LeetCode/blob/master/1477FindTwoNonoverlappingSubarraysEachWithTargetSum.md)
