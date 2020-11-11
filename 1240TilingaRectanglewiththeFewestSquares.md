@@ -48,7 +48,7 @@ Constraints:
     
     Inspired by others' solutions , especially for converting a partially filled rectangle into a single integer, which can be used as a HashMap key.
     
-    I use a HashMap stepsToReach to short-circuit the algorithm, which largely improvement the performance.  For the time complexity analysis, it is difficult to 
+    I use a HashMap stepsToReach to short-circuit the algorithm, which largely improves the performance.  For the time complexity analysis, it is difficult to 
     calculate the impact of the HashMap.  There are totally n*m 1*1 squares, so the recursion depth could be n*m although we never reach n*m due to the HashMap.  
     For each layer of the recursion, we can have n (n<m) different ways to get a square.  The time complexity should be n^(n*m).  This is a very rough estimation 
     about the upper bound.
