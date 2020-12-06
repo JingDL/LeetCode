@@ -17,6 +17,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [753. Cracking the Safe (Hard)](https://github.com/JingDL/LeetCode/blob/master/753CrackingtheSafe.md)
 
+[715. Range Module (Hard)](https://github.com/JingDL/LeetCode/blob/master/715RangeModule.md)
+
 [777. Swap Adjacent in LR String (Medium)](https://github.com/JingDL/LeetCode/blob/master/777SwapAdjacentinLRString.md)
 
 [844. Backspace String Compare (Easy)](https://github.com/JingDL/LeetCode/blob/master/844BackspaceStringCompare.md)
