@@ -45,8 +45,12 @@ class RangeModule {
     
     // time complexity O(m*log(n)), m is the number of overlapping intervals, n is the size of sortedIntervals.
     public void addRange(int left, int right) {
-        /* It is faster to read entire Map.Entry than getting key first, then getting value by using the key.  The former calls hash function once, but the latter
-        calls hash function twice. */
+        /* 
+        There are two ways to get the value:
+        1) read the entire Map.Entry;
+        2) get key first, then obtain the  value by using the key.
+        The former searches the key once, which takes O(log(n)), but the latter searches the key twice.
+        */
         Map.Entry<Integer, Integer> leftFloor = sortedIntervals.floorEntry(left);  
         int start = left;
         if(leftFloor != null){
