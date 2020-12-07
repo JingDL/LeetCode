@@ -13,6 +13,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [471. Encode String with Shortest Length (Hard)](https://github.com/JingDL/LeetCode/blob/master/471EncodeStringwithShortestLength.md)
 
+[695. Max Area of Island (Medium)](https://github.com/JingDL/LeetCode/blob/master/695MaxAreaofIsland.md)
+
 [722. Remove Comments (Medium)](https://github.com/JingDL/LeetCode/blob/master/722RemoveComments.md)
 
 [753. Cracking the Safe (Hard)](https://github.com/JingDL/LeetCode/blob/master/753CrackingtheSafe.md)
