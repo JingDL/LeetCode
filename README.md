@@ -23,6 +23,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [777. Swap Adjacent in LR String (Medium)](https://github.com/JingDL/LeetCode/blob/master/777SwapAdjacentinLRString.md)
 
+[1277. Count Square Submatrices with All Ones (Medium)](https://github.com/JingDL/LeetCode/blob/master/1277CountSquareSubmatriceswithAllOnes.md)
+
 [844. Backspace String Compare (Easy)](https://github.com/JingDL/LeetCode/blob/master/844BackspaceStringCompare.md)
 
 [1031. Maximum Sum of Two Non-Overlapping Subarrays (Medium)](https://github.com/JingDL/LeetCode/blob/master/1031MaximumSumofTwoNonOverlappingSubarrays.md)
