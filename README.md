@@ -23,8 +23,6 @@ Every weekend, I am going to solve one LeetCode question.
 
 [777. Swap Adjacent in LR String (Medium)](https://github.com/JingDL/LeetCode/blob/master/777SwapAdjacentinLRString.md)
 
-[1277. Count Square Submatrices with All Ones (Medium)](https://github.com/JingDL/LeetCode/blob/master/1277CountSquareSubmatriceswithAllOnes.md)
-
 [844. Backspace String Compare (Easy)](https://github.com/JingDL/LeetCode/blob/master/844BackspaceStringCompare.md)
 
 [995. Minimum Number of K Consecutive Bit Flips (Hard)](https://github.com/JingDL/LeetCode/blob/master/995MinimumNumberofKConsecutiveBitFlips.md)
@@ -32,6 +30,8 @@ Every weekend, I am going to solve one LeetCode question.
 [1031. Maximum Sum of Two Non-Overlapping Subarrays (Medium)](https://github.com/JingDL/LeetCode/blob/master/1031MaximumSumofTwoNonOverlappingSubarrays.md)
 
 [1240. Tiling a Rectangle with the Fewest Squares (Hard)](https://github.com/JingDL/LeetCode/blob/master/1240TilingaRectanglewiththeFewestSquares.md)
+
+[1277. Count Square Submatrices with All Ones (Medium)](https://github.com/JingDL/LeetCode/blob/master/1277CountSquareSubmatriceswithAllOnes.md)
 
 [1423. Maximum Points You Can Obtain from Cards (Medium)](https://github.com/JingDL/LeetCode/blob/master/1423MaximumPointsYouCanObtainfromCards.md)
 
