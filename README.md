@@ -27,6 +27,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [844. Backspace String Compare (Easy)](https://github.com/JingDL/LeetCode/blob/master/844BackspaceStringCompare.md)
 
+[995. Minimum Number of K Consecutive Bit Flips (Hard)](https://github.com/JingDL/LeetCode/blob/master/995MinimumNumberofKConsecutiveBitFlips.md)
+
 [1031. Maximum Sum of Two Non-Overlapping Subarrays (Medium)](https://github.com/JingDL/LeetCode/blob/master/1031MaximumSumofTwoNonOverlappingSubarrays.md)
 
 [1240. Tiling a Rectangle with the Fewest Squares (Hard)](https://github.com/JingDL/LeetCode/blob/master/1240TilingaRectanglewiththeFewestSquares.md)
