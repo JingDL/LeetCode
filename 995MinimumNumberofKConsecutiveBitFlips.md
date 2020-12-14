@@ -55,8 +55,8 @@ When we process A from the left to the right, the flips happened on A[i-K+1]…A
 A[i].  We can use a FIFO queue to track the flips.  The FIFO queue records the index of A where a flip happened.  If the the first item of the queue equals (i - k
 -1), we remove the first item, and the size of the queue is the number of flips that can affect A[I].
 
-If the size of the queue is an even number, and A[i] (the original value of A[I]) is 0,  we must flip A[I] because it become 0 after all the flips.  If the size of
-queue is an odd number, and A[i] is 1, we also need to flip A[I], since A[i] became 0 after all the flips.  We put i into the queue for the coming items, and
+If the size of the queue is an even number, and A[i] (the original value of A[I]) is 0,  we must flip A[i] because it became 0 after all the flips.  If the size of
+queue is an odd number, and A[i] is 1, we also need to flip A[i], since A[i] became 0 after all the flips.  We put i into the queue for the coming items, and
 update the number of needed flips.
 
 The time complexity is O(n), where n is the size of A, and the space complexity is O(K) for the worst case scenario (e.g. 0101010101)
