@@ -52,8 +52,8 @@ Suppose A[0] = 0, the only way to flip it is to flip A[0], … A[K-1].  In other
 in this way from the left to the right of A, if i+K > the size of A, we cannot convert every 0 into 1.
 
 When we process A from the left to the right, the flips happened on A[i-K+1]…A[i-1] can affect A[i].  The flips happened before A[i-K+1] should have no effect on
-A[i].  We can use a FIFO queue to track the flips.  The FIFO queue records the index of A where a flip happened.  If the the first item = i - k -1, we remove the
-first item, and the size of the queue is the number of flips that can affect A[I].
+A[i].  We can use a FIFO queue to track the flips.  The FIFO queue records the index of A where a flip happened.  If the the first item of the queue equals (i - k
+-1), we remove the first item, and the size of the queue is the number of flips that can affect A[I].
 
 If the size of the queue is an even number, and A[i] (the original value of A[I]) is 0,  we must flip A[I] because it become 0 after all the flips.  If the size of
 queue is an odd number, and A[i] is 1, we also need to flip A[I], since A[i] became 0 after all the flips.  We put i into the queue for the coming items, and
