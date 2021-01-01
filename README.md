@@ -33,6 +33,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [1277. Count Square Submatrices with All Ones (Medium)](https://github.com/JingDL/LeetCode/blob/master/1277CountSquareSubmatriceswithAllOnes.md)
 
+[1368. Minimum Cost to Make at Least One Valid Path in a Grid (Hard](https://github.com/JingDL/LeetCode/blob/master/1368MinimumCosttoMakeatLeastOneValidPathinaGrid.md)
+
 [1423. Maximum Points You Can Obtain from Cards (Medium)](https://github.com/JingDL/LeetCode/blob/master/1423MaximumPointsYouCanObtainfromCards.md)
 
 [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum (Medium)](https://github.com/JingDL/LeetCode/blob/master/1477FindTwoNonoverlappingSubarraysEachWithTargetSum.md)
