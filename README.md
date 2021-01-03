@@ -23,6 +23,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [777. Swap Adjacent in LR String (Medium)](https://github.com/JingDL/LeetCode/blob/master/777SwapAdjacentinLRString.md)
 
+[792. Number of Matching Subsequences (Medium)](https://github.com/JingDL/LeetCode/blob/master/792NumberofMatchingSubsequences.md)
+
 [844. Backspace String Compare (Easy)](https://github.com/JingDL/LeetCode/blob/master/844BackspaceStringCompare.md)
 
 [995. Minimum Number of K Consecutive Bit Flips (Hard)](https://github.com/JingDL/LeetCode/blob/master/995MinimumNumberofKConsecutiveBitFlips.md)
