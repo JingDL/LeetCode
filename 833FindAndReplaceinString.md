@@ -62,7 +62,7 @@ sources[i] and targets[i] consist of only lowercase English letters.
 #### My Solutions in Java
 ```
 /*
-    Intuitively, we may consider to process S from the right to the left, because changes made on the right does not change the index on the left.  However, this 
+    Intuitively, we may consider processing S from the right to the left, because changes made on the right does not change the index on the left.  However, this 
     method copies a lot of substrings.
     
     If we process S from the left to the right.  By using a StringBuilder, we only copy each character once. 
