@@ -58,6 +58,35 @@ Explanation: [3,4,5,4,3,2,1] is the only path with edit distance = 0 with target
 
 It's equivalent to ["ATL","DXB","HND","DXB","ATL","LAX","PEK"]
 
+Constraints:
+
+2 <= n <= 100
+
+m == roads.length
+
+n - 1 <= m <= (n * (n - 1) / 2)
+
+0 <= ai, bi <= n - 1
+
+ai != bi
+
+The graph is guaranteed to be connected and each pair of nodes may have at most one direct road.
+
+names.length == n
+
+names[i].length == 3
+
+names[i] consists of upper-case English letters.
+
+There can be two cities with the same name.
+
+1 <= targetPath.length <= 100
+
+targetPath[i].length == 3
+
+targetPath[i] consists of upper-case English letters.
+
+
 #### My Solutions in Java
 ```
 /*
