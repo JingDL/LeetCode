@@ -5,6 +5,8 @@ Every weekend, I am going to solve one LeetCode question.
 
 [72. Edit Distance (Hard)](https://github.com/JingDL/LeetCode/blob/master/72EditDistance.md)
 
+[149. Max Points on a Line (Hard)](https://github.com/JingDL/LeetCode/blob/master/149MaxPointsonaLine.md)
+
 [165. Compare Version Numbers (Medium)](https://github.com/JingDL/LeetCode/blob/master/165CompareVersionNumbers.md)
 
 [428. Serialize and Deserialize N-ary Tree (Hard)](https://github.com/JingDL/LeetCode/blob/master/428SerializeandDeserializeN-aryTree.md)
