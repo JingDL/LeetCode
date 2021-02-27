@@ -1,5 +1,5 @@
 ## My Solutions for LeetCode Questions
-Every weekend, I am going to solve one LeetCode question.  
+  
 [50. Pow(x, n) (Medium)](https://github.com/JingDL/LeetCode/blob/master/50Pow.md)  
 [72. Edit Distance (Hard)](https://github.com/JingDL/LeetCode/blob/master/72EditDistance.md)  
 [149. Max Points on a Line (Hard)](https://github.com/JingDL/LeetCode/blob/master/149MaxPointsonaLine.md)  
